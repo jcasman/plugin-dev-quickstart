@@ -41,48 +41,56 @@ plug-in and modifying it for your specific requirements.
 Here are 8 plug-ins that will get your development started like a 
 rocket.
 
-`Cloud Upload <https://github.com/ricohapi/theta-cloud-upload-plugin>`_
------------------------------------------------------------------------
+Cloud Upload 
+------------
 * Upload automatically from THETA to Google Photos for 360 and VR viewing
 * Author: Ricoh
+* `GitHub <https://github.com/ricohapi/theta-cloud-upload-plugin>`_
 
-`Wireless Live Streaming <https://github.com/ricohapi/theta-wireless-live-streaming-plugin>`_
----------------------------------------------------------------------------------------------
+Wireless Live Streaming
+-----------------------
 * 4K equirectangular live streaming from THETA direct to YouTube and Facebook using RTMP
 * Author: Ricoh
+* `GitHub <https://github.com/ricohapi/theta-wireless-live-streaming-plugin>`_
 
-`Automatic Face Blur <https://github.com/ricohapi/theta-automatic-face-blur-plugin>`_
--------------------------------------------------------------------------------------
+Automatic Face Blur
+-------------------
 * Automatically detect and blur the faces of people to protect privacy
 * Author: Ricoh
+* `GitHub <https://github.com/ricohapi/theta-automatic-face-blur-plugin>`_
 
-`Live Streaming Plug-in Sample for RICOH THETA <https://github.com/ricohapi/theta-plugin-ricoh-live-streaming-sample>`_
------------------------------------------------------------------------------------------------------------------------
+Live Streaming Plug-in Sample for RICOH THETA
+---------------------------------------------
 * Sample application using WebRTC SFU to live stream spherical video to the 
   RICOH Cloud with the `RICOH Live Streaming API <https://api.ricoh/products/live-streaming-api/>`_
   for their cloud. 
 * Author: Ricoh
+* `GitHub <https://github.com/ricohapi/theta-plugin-ricoh-live-streaming-sample>`_
 
-`THETA Sample Plug-in: CameraAPI Capture Plugin <https://github.com/ricohapi/theta-plugin-camera-api-sample>`_
---------------------------------------------------------------------------------------------------------------
+THETA Sample Plug-in: CameraAPI Capture Plugin
+----------------------------------------------
 * Excellent starting point for using the internal CameraAPI to take pictures and video. Simple and easy to customize. 
 * Author: Ricoh
+* `GitHub <https://github.com/ricohapi/theta-plugin-camera-api-sample>`_
 
-`THETA Sample Plug-in: WebAPI Capture Plugin <https://github.com/theta360developers/theta-plugin-web-api-sample>`_ 
-------------------------------------------------------------------------------------------------------------------
+THETA Sample Plug-in: WebAPI Capture Plugin
+-------------------------------------------
 * Great sample application to use the WebAPI from the plug-in
 * Author: Shohara
+* `GitHub <https://github.com/theta360developers/theta-plugin-web-api-sample>`_ 
 
-`Dual-fisheye Plug-in <https://github.com/theta360developers/original-dual-fisheye-plugin>`_ 
---------------------------------------------------------------------------------------------
+Dual-fisheye Plug-in
+--------------------
 * Ichi Hirota's dual-fisheye plug-in to take 3 bracketed images. Includes examples for modifying 
   exposure and the number of images
 * Author: Ichi Hirota
+* `GitHub <https://github.com/theta360developers/original-dual-fisheye-plugin>`_ 
 
-`THETA Plug-in SDK <https://github.com/ricohapi/theta-plugin-sdk>`_ 
--------------------------------------------------------------------
+THETA Plug-in SDK
+-----------------
 * Official plug-in SDK
 * Ricoh
+* `GitHub <https://github.com/ricohapi/theta-plugin-sdk>`_ 
 
 More Code Examples
 ==================
@@ -91,19 +99,22 @@ Here are three additional plug-ins from the community. These are all based on th
 `THETA Sample Plug-in: Camera API <https://github.com/ricohapi/theta-plugin-camera-api-sample>`_
 project listed above.
 
-`Long 2K Video <https://github.com/theta360developers/long-2k-video>`_
-----------------------------------------------------------------------
-Bypasses 25 minute video recording limitation to record 1 hour and 24 minutes 
+Long 2K Video
+-------------
+* Bypasses 25 minute video recording limitation to record 1 hour and 24 minutes 
 of 2K video with spatial audio
+* `GitHub <https://github.com/theta360developers/long-2k-video>`_
 
-`Long 4K Video <https://github.com/theta360developers/4k-long-video>`_
+Long 4K Video
 ----------------------------------------------------------------------
-Tested to 1 hour 24 minutes of 4K 30fps video with mono audio and 48 minutes 
+* Tested to 1 hour 24 minutes of 4K 30fps video with mono audio and 48 minutes 
 with spatial audio and default encoding.
+* `GitHub <https://github.com/theta360developers/4k-long-video>`_
 
-`Surveillance 2K <https://github.com/theta360developers/surveillance-2k>`_ 
---------------------------------------------------------------------------
-10 hour 55 minute saved to internal storage. 2K, 10fps
+Surveillance 2K
+---------------
+* 10 hour 55 minute saved to internal storage. 2K, 10fps
+* `GitHub <https://github.com/theta360developers/surveillance-2k>`_ 
 
 
 Live Streaming Tips
