@@ -38,12 +38,42 @@
 <h1>THETA Plug-in Development Quickstart<a class="headerlink" href="#theta-plug-in-development-quickstart" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><a class="reference external" href="https://api.ricoh/products/theta-plugin/">Join the partner program</a> (it’s free as of Oct 2018)</li>
+<li>Enable THETA developer mode - Use RICOH desktop application on Mac or Windows</li>
+<li>Download one of the many code examples from GitHub - My personal favorite starting place is <a class="reference external" href="https://github.com/ricohapi/theta-plugin-camera-api-sample">THETA Sample Plug-in: CameraAPI Capture Plugin</a></li>
+<li>Open project in Android Studio</li>
+<li>Build apk and install into THETA V with a USB cable and adb</li>
+<li>Use <a class="reference external" href="https://www.vysor.io/">Vysor</a> to set application permissions</li>
+<li>Start plug-in using Vysor. Test it</li>
+</ol>
+<div class="section" id="testing-plug-in-untethered">
+<h3>Testing Plug-in Untethered<a class="headerlink" href="#testing-plug-in-untethered" title="Permalink to this headline">¶</a></h3>
+<p>After you set the permissions with Vysor, you need to complete the following steps:</p>
+<ol class="arabic simple">
+<li>Set the default plug-in to launch using the Ricoh mobile app or the Ricoh desktop app</li>
+<li>Put camera into plug-in mode by pressing the lower mode button for more than 2 seconds.
+The LED above the shutter button will turn white.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="resources-and-help">
+<h2>Resources and Help<a class="headerlink" href="#resources-and-help" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://theta360.guide/plugin-guide/">RICOH THETA Plugin Development Guide</a> (Community)</li>
+<li><a class="reference external" href="http://theta360.guide/plugin-user-guide/">THETA Plug-in User Guide</a> (Community)</li>
+<li><a class="reference external" href="https://api.ricoh/docs/theta-plugin/api/?utm_source=theta360guide">Official API Documentation</a> (RICOH)</li>
+<li><a class="reference external" href="https://community.theta360.guide/c/theta-api-usage/plugin">Community Discussion</a> (Community)</li>
+</ul>
+</div>
+<div class="section" id="main-code-examples">
+<h2>Main Code Examples<a class="headerlink" href="#main-code-examples" title="Permalink to this headline">¶</a></h2>
 <p>You can develop custom functionality for RICOH THETA V
 cameras in minutes by downloading an existing open source
-plug-in and modifying it for your specific requirements.</p>
-<div class="section" id="code-examples">
-<h2>Code Examples<a class="headerlink" href="#code-examples" title="Permalink to this headline">¶</a></h2>
-<p>Here are 8 plug-ins that will get your development started like a
+plug-in and modifying it for your specific requirements.
+Here are 8 plug-ins that will get your development started like a
 rocket.</p>
 <div class="section" id="id1">
 <h3><a class="reference external" href="https://github.com/ricohapi/theta-cloud-upload-plugin">Cloud Upload</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
@@ -75,58 +105,58 @@ for their cloud.</li>
 <li>Author: Ricoh</li>
 </ul>
 </div>
-<div class="section" id="id5">
-<h3><a class="reference external" href="https://github.com/ricohapi/theta-plugin-camera-api-sample">THETA Sample Plug-in: CameraAPI Capture Plugin</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id6">
+<h3><a class="reference external" href="https://github.com/ricohapi/theta-plugin-camera-api-sample">THETA Sample Plug-in: CameraAPI Capture Plugin</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li>Excellent starting point for using the internal CameraAPI to take pictures and video. Simple and easy to customize.</li>
 <li>Author: Ricoh</li>
 </ul>
 </div>
-<div class="section" id="id6">
-<h3><a class="reference external" href="https://github.com/theta360developers/theta-plugin-web-api-sample">THETA Sample Plug-in: WebAPI Capture Plugin</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h3><a class="reference external" href="https://github.com/theta360developers/theta-plugin-web-api-sample">THETA Sample Plug-in: WebAPI Capture Plugin</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li>Great sample application to use the WebAPI from the plug-in</li>
 <li>Author: Shohara</li>
 </ul>
 </div>
-<div class="section" id="id7">
-<h3><a class="reference external" href="https://github.com/theta360developers/original-dual-fisheye-plugin">Dual-fisheye Plug-in</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id8">
+<h3><a class="reference external" href="https://github.com/theta360developers/original-dual-fisheye-plugin">Dual-fisheye Plug-in</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li>Ichi Hirota’s dual-fisheye plug-in to take 3 bracketed images. Includes examples for modifying
 exposure and the number of images</li>
 <li>Author: Ichi Hirota</li>
 </ul>
 </div>
-<div class="section" id="id8">
-<h3><a class="reference external" href="https://github.com/ricohapi/theta-plugin-sdk">THETA Plug-in SDK</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id9">
+<h3><a class="reference external" href="https://github.com/ricohapi/theta-plugin-sdk">THETA Plug-in SDK</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li>Official plug-in SDK</li>
 <li>Ricoh</li>
 </ul>
 </div>
 </div>
-<div class="section" id="more-open-source-plug-ins">
-<h2>3 More Open Source Plug-ins<a class="headerlink" href="#more-open-source-plug-ins" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="more-code-examples">
+<h2>More Code Examples<a class="headerlink" href="#more-code-examples" title="Permalink to this headline">¶</a></h2>
 <p>Here are three additional plug-ins from the community. These are all based on the
 <a class="reference external" href="https://github.com/ricohapi/theta-plugin-camera-api-sample">THETA Sample Plug-in: Camera API</a>
 project listed above.</p>
-<div class="section" id="id9">
-<h3><a class="reference external" href="https://github.com/theta360developers/long-2k-video">Long 2K Video</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id10">
+<h3><a class="reference external" href="https://github.com/theta360developers/long-2k-video">Long 2K Video</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <p>Bypasses 25 minute video recording limitation to record 1 hour and 24 minutes
 of 2K video with spatial audio</p>
 </div>
-<div class="section" id="id10">
-<h3><a class="reference external" href="https://github.com/theta360developers/4k-long-video">Long 4K Video</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id11">
+<h3><a class="reference external" href="https://github.com/theta360developers/4k-long-video">Long 4K Video</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 <p>Tested to 1 hour 24 minutes of 4K 30fps video with mono audio and 48 minutes
 with spatial audio and default encoding.</p>
 </div>
-<div class="section" id="id11">
-<h3><a class="reference external" href="https://github.com/theta360developers/surveillance-2k">Surveillance 2K</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id12">
+<h3><a class="reference external" href="https://github.com/theta360developers/surveillance-2k">Surveillance 2K</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
 <p>10 hour 55 minute saved to internal storage. 2K, 10fps</p>
 </div>
 </div>
-<div class="section" id="live-streaming-plug-in-development-tips">
-<h2>Live Streaming Plug-in Development Tips<a class="headerlink" href="#live-streaming-plug-in-development-tips" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="live-streaming-tips">
+<h2>Live Streaming Tips<a class="headerlink" href="#live-streaming-tips" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="facebook-youtube-periscope-and-rtmp">
 <h3>Facebook, YouTube, Periscope and RTMP<a class="headerlink" href="#facebook-youtube-periscope-and-rtmp" title="Permalink to this headline">¶</a></h3>
 <p>Facebook, YouTube, and Periscope use Real-Time Messaging Protocol (RTMP) to live
@@ -214,24 +244,29 @@ our initial tests indicate that the battery power may be decreasing slowly.</p>
   <h3><a href="#">Table of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">THETA Plug-in Development Quickstart</a><ul>
-<li><a class="reference internal" href="#code-examples">Code Examples</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a><ul>
+<li><a class="reference internal" href="#testing-plug-in-untethered">Testing Plug-in Untethered</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resources-and-help">Resources and Help</a></li>
+<li><a class="reference internal" href="#main-code-examples">Main Code Examples</a><ul>
 <li><a class="reference internal" href="#id1">Cloud Upload</a></li>
 <li><a class="reference internal" href="#id2">Wireless Live Streaming</a></li>
 <li><a class="reference internal" href="#id3">Automatic Face Blur</a></li>
 <li><a class="reference internal" href="#id4">Live Streaming Plug-in Sample for RICOH THETA</a></li>
-<li><a class="reference internal" href="#id5">THETA Sample Plug-in: CameraAPI Capture Plugin</a></li>
-<li><a class="reference internal" href="#id6">THETA Sample Plug-in: WebAPI Capture Plugin</a></li>
-<li><a class="reference internal" href="#id7">Dual-fisheye Plug-in</a></li>
-<li><a class="reference internal" href="#id8">THETA Plug-in SDK</a></li>
+<li><a class="reference internal" href="#id6">THETA Sample Plug-in: CameraAPI Capture Plugin</a></li>
+<li><a class="reference internal" href="#id7">THETA Sample Plug-in: WebAPI Capture Plugin</a></li>
+<li><a class="reference internal" href="#id8">Dual-fisheye Plug-in</a></li>
+<li><a class="reference internal" href="#id9">THETA Plug-in SDK</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#more-open-source-plug-ins">3 More Open Source Plug-ins</a><ul>
-<li><a class="reference internal" href="#id9">Long 2K Video</a></li>
-<li><a class="reference internal" href="#id10">Long 4K Video</a></li>
-<li><a class="reference internal" href="#id11">Surveillance 2K</a></li>
+<li><a class="reference internal" href="#more-code-examples">More Code Examples</a><ul>
+<li><a class="reference internal" href="#id10">Long 2K Video</a></li>
+<li><a class="reference internal" href="#id11">Long 4K Video</a></li>
+<li><a class="reference internal" href="#id12">Surveillance 2K</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#live-streaming-plug-in-development-tips">Live Streaming Plug-in Development Tips</a><ul>
+<li><a class="reference internal" href="#live-streaming-tips">Live Streaming Tips</a><ul>
 <li><a class="reference internal" href="#facebook-youtube-periscope-and-rtmp">Facebook, YouTube, Periscope and RTMP</a></li>
 <li><a class="reference internal" href="#webrtc-oculus-go-and-video-conferencing">WebRTC, Oculus Go and Video Conferencing</a></li>
 <li><a class="reference internal" href="#ethernet">Ethernet</a></li>
