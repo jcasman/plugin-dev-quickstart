@@ -1,0 +1,170 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Live Streaming Tips &#8212; THETA Plugin Dev Quickstart  documentation</title>
+    <link rel="stylesheet" href="../static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../static/documentation_options.js"></script>
+    <script type="text/javascript" src="../static/jquery.js"></script>
+    <script type="text/javascript" src="../static/underscore.js"></script>
+    <script type="text/javascript" src="../static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">THETA Plugin Dev Quickstart  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Live Streaming Tips</a><ul>
+<li><a class="reference internal" href="#facebook-youtube-periscope-and-rtmp">Facebook, YouTube, Periscope and RTMP</a></li>
+<li><a class="reference internal" href="#webrtc-oculus-go-and-video-conferencing">WebRTC, Oculus Go and Video Conferencing</a></li>
+<li><a class="reference internal" href="#ethernet">Ethernet</a></li>
+<li><a class="reference internal" href="#heat">Heat</a></li>
+<li><a class="reference internal" href="#usb">USB</a></li>
+<li><a class="reference internal" href="#power">Power</a></li>
+<li><a class="reference internal" href="#test-and-debug">Test and Debug</a></li>
+<li><a class="reference internal" href="#use-adb-from-ip-address">Use adb from IP address</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../sources/streaming/tips.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="live-streaming-tips">
+<h1>Live Streaming Tips<a class="headerlink" href="#live-streaming-tips" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="facebook-youtube-periscope-and-rtmp">
+<h2>Facebook, YouTube, Periscope and RTMP<a class="headerlink" href="#facebook-youtube-periscope-and-rtmp" title="Permalink to this headline">¶</a></h2>
+<p>Facebook, YouTube, and Periscope use Real-Time Messaging Protocol (RTMP) to live
+stream events. The
+<a class="reference external" href="https://github.com/ricohapi/theta-wireless-live-streaming-plugin">Wireless Live Streaming Plug-in</a>
+provides a great example of RTMP for 4K equirectangular video direct from the camera.</p>
+</div>
+<div class="section" id="webrtc-oculus-go-and-video-conferencing">
+<h2>WebRTC, Oculus Go and Video Conferencing<a class="headerlink" href="#webrtc-oculus-go-and-video-conferencing" title="Permalink to this headline">¶</a></h2>
+<p>You will need to do more work for WebRTC. The
+<a class="reference external" href="https://github.com/ricohapi/theta-plugin-ricoh-live-streaming-sample">RICOH Live Streaming plug-in Sample for RICOH THETA</a>
+provides a complete open source example using the RICOH Cloud servers.</p>
+<p>If you want to use WebRTC with your own servers, you will need an external signaling server.</p>
+<p>Examples of WebRTC external server use:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://community.theta360.guide/t/howto-viewing-360-video-in-real-time-from-theta-v-with-oculus-go-browser/3066">HowTo: Viewing 360° Video in Real-Time from THETA V with Oculus Go Browser</a></li>
+<li><a class="reference external" href="https://community.theta360.guide/t/making-theta-360-work-with-opentoks-client-side-webrtc-livestreaming-mobile-stitching-google-cardboard-view/986">Making Theta 360 work with OpenTok’s client-side webRTC livestreaming - mobile stitching - google “cardboard” view</a></li>
+<li><a class="reference external" href="https://community.theta360.guide/t/360-video-conferencing-with-the-ricoh-theta-s/38">360 Video Conferencing with the RICOH THETA S</a></li>
+</ul>
+</div>
+<div class="section" id="ethernet">
+<h2>Ethernet<a class="headerlink" href="#ethernet" title="Permalink to this headline">¶</a></h2>
+<p>Although the Wireless Live Streaming plug-in does work with Ethernet, the camera cannot be powered by
+Ethernet.  There is no known success of bypassing the battery to power the THETA V from an external
+source. If you use Wi-Fi, you can power the THETA V from the USB port</p>
+</div>
+<div class="section" id="heat">
+<h2>Heat<a class="headerlink" href="#heat" title="Permalink to this headline">¶</a></h2>
+<p>HoloBuilder has reported success with 24 hour 4K live streaming using Wi-Fi. Some people have reported heat issues.</p>
+<ul class="simple">
+<li>blowing a fan on the body of the camera helps. You can use a household fan and angle it toward the camera.</li>
+<li>Using Wi-Fi will generate more heat than streaming through the USB cable</li>
+<li>Although you can stream dual-fisheye and offload the stitching, Ricoh does not release lens parameter information.</li>
+</ul>
+</div>
+<div class="section" id="usb">
+<h2>USB<a class="headerlink" href="#usb" title="Permalink to this headline">¶</a></h2>
+<p>No one has figured out how to stream from the plug-in over USB as of Oct 2018.  We do not think it
+is possible to stream from the plug-in using USB. We recommend that you use the
+normal camera application and not the plug-in.</p>
+</div>
+<div class="section" id="power">
+<h2>Power<a class="headerlink" href="#power" title="Permalink to this headline">¶</a></h2>
+<p>We’re using a mobile phone charger capable of supplying 1.5 amps for our tests.  Do not
+power the camera from your computer USB while attempting Wi-Fi streaming.
+Although the camera is receiving power from the USB when it is streaming over Wi-Fi,
+our initial tests indicate that the battery power may be decreasing slowly.</p>
+</div>
+<div class="section" id="test-and-debug">
+<h2>Test and Debug<a class="headerlink" href="#test-and-debug" title="Permalink to this headline">¶</a></h2>
+<p>Tip to use adb with a USB cable and Wi-Fi for streaming</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb shell settings put global usb_debug <span class="nb">true</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="use-adb-from-ip-address">
+<h2>Use adb from IP address<a class="headerlink" href="#use-adb-from-ip-address" title="Permalink to this headline">¶</a></h2>
+<p>If you’re testing Wi-Fi live streaming, you may be trying to connect  the THETA V Wi-Fi to the Internet while you are debugging the plug-in with Vysor  or adb connected to your camera with a USB cable. This won’t work.</p>
+<p>To get Vysor or adb to work with TCP/IP, you need to run the following command first with the camera connected with a USB cable:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb tcpip <span class="m">5555</span>
+</pre></div>
+</div>
+<p>Get IP address from router.</p>
+<p>Once connected, establish adb connection with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb connect IP.address:PORT
+</pre></div>
+</div>
+<p>or with my IP address of 192.168.2.102</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb connect <span class="m">192</span>.168.2.102:5555
+</pre></div>
+</div>
+<p>You can also use Vysor with an IP address that is established using Wi-Fi or Ethernet.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">THETA Plugin Dev Quickstart  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Oppkey.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.1.
+    </div>
+  </body>
+</html>
