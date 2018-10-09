@@ -100,6 +100,8 @@ html_static_path = ['static']
 
 html_show_sourcelink = False
 
+html_show_sphinx = False
+
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
