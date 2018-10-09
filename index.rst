@@ -1,4 +1,4 @@
-THETA Plug-in Development Quickstart
+THETA Plug-in Development - Getting Started
 ####################################
 
 .. toctree::
