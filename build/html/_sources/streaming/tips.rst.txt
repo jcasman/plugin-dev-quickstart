@@ -1,6 +1,7 @@
 Live Streaming Tips
 ===================
 
+.. index:: live streaming
 
 Facebook, YouTube, Periscope and RTMP
 -------------------------------------

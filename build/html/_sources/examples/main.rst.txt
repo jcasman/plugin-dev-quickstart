@@ -12,6 +12,8 @@ Cloud Upload
 * Author: Ricoh
 * `GitHub <https://github.com/ricohapi/theta-cloud-upload-plugin>`_
 
+.. index:: live streaming
+
 Wireless Live Streaming
 -----------------------
 * 4K equirectangular live streaming from THETA direct to YouTube and Facebook using RTMP
@@ -23,6 +25,8 @@ Automatic Face Blur
 * Automatically detect and blur the faces of people to protect privacy
 * Author: Ricoh
 * `GitHub <https://github.com/ricohapi/theta-automatic-face-blur-plugin>`_
+
+.. index:: live streaming
 
 Live Streaming Plug-in Sample for RICOH THETA
 ---------------------------------------------
