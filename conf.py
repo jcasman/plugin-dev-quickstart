@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'THETA Plugin Dev Quickstart'
+project = 'Getting Started with THETA Plugin Dev'
 copyright = '2018, Oppkey'
 author = 'Craig Oda and the theta360.guide community'
 
@@ -107,7 +107,7 @@ html_show_sphinx = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'theta-plugin-development-quickstartdoc'
+htmlhelp_basename = 'theta-plugin-development-get-started'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -134,7 +134,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'theta-plugin-development-quickstart.tex', 'theta-plugin-development-quickstart Documentation',
+    (master_doc, 'theta-plugin-development-quickstart.tex',
+        'theta-plugin-development-quickstart Documentation',
      'Craig Oda', 'manual'),
 ]
 
@@ -144,7 +145,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'theta-plugin-development-quickstart', 'theta-plugin-development-quickstart Documentation',
+    (master_doc, 'theta-plugin-development-quickstart',
+        'theta-plugin-development-quickstart Documentation',
      [author], 1)
 ]
 
@@ -155,8 +157,10 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'theta-plugin-development-quickstart', 'theta-plugin-development-quickstart Documentation',
-     author, 'theta-plugin-development-quickstart', 'One line description of project.',
+    (master_doc, 'theta-plugin-development-quickstart',
+        'theta-plugin-development-quickstart Documentation',
+     author, 'theta-plugin-development-quickstart', 
+        'One line description of project.',
      'Miscellaneous'),
 ]
 
