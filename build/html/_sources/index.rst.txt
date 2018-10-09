@@ -5,7 +5,7 @@ THETA Plug-in Development Quickstart
    :maxdepth: 1
    :caption: Documents:
 
-   index 
+
    examples/main
    examples/additional
    streaming/tips
