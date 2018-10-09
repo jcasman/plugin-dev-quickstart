@@ -4,22 +4,28 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Live Streaming Tips &#8212; THETA Plugin Dev Quickstart  documentation</title>
-    <link rel="stylesheet" href="../static/classic.css" type="text/css" />
-    <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
-    
-    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../static/documentation_options.js"></script>
-    <script type="text/javascript" src="../static/jquery.js"></script>
-    <script type="text/javascript" src="../static/underscore.js"></script>
-    <script type="text/javascript" src="../static/doctools.js"></script>
-    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
+    <link rel="stylesheet" href="../_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="prev" title="Additional Code Examples" href="../examples/additional.html" /> 
-  </head><body>
+  </head>
+  <body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -31,7 +37,39 @@
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="../index.html">THETA Plugin Dev Quickstart  documentation</a> &#187;</li> 
       </ul>
-    </div>  
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Live Streaming Tips</a><ul>
+<li><a class="reference internal" href="#facebook-youtube-periscope-and-rtmp">Facebook, YouTube, Periscope and RTMP</a></li>
+<li><a class="reference internal" href="#webrtc-oculus-go-and-video-conferencing">WebRTC, Oculus Go and Video Conferencing</a></li>
+<li><a class="reference internal" href="#ethernet">Ethernet</a></li>
+<li><a class="reference internal" href="#heat">Heat</a></li>
+<li><a class="reference internal" href="#usb">USB</a></li>
+<li><a class="reference internal" href="#power">Power</a></li>
+<li><a class="reference internal" href="#test-and-debug">Test and Debug</a></li>
+<li><a class="reference internal" href="#use-adb-from-ip-address">Use adb from IP address</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../examples/additional.html"
+                        title="previous chapter">Additional Code Examples</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
 
     <div class="document">
       <div class="documentwrapper">
@@ -91,7 +129,7 @@ our initial tests indicate that the battery power may be decreasing slowly.</p>
 <div class="section" id="test-and-debug">
 <h2>Test and Debug<a class="headerlink" href="#test-and-debug" title="Permalink to this headline">¶</a></h2>
 <p>Tip to use adb with a USB cable and Wi-Fi for streaming</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb shell settings put global usb_debug <span class="nb">true</span>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>adb shell settings put global usb_debug <span class="nb">true</span>
 </pre></div>
 </div>
 </div>
@@ -99,16 +137,16 @@ our initial tests indicate that the battery power may be decreasing slowly.</p>
 <h2>Use adb from IP address<a class="headerlink" href="#use-adb-from-ip-address" title="Permalink to this headline">¶</a></h2>
 <p>If you’re testing Wi-Fi live streaming, you may be trying to connect  the THETA V Wi-Fi to the Internet while you are debugging the plug-in with Vysor  or adb connected to your camera with a USB cable. This won’t work.</p>
 <p>To get Vysor or adb to work with TCP/IP, you need to run the following command first with the camera connected with a USB cable:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb tcpip <span class="m">5555</span>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>adb tcpip <span class="m">5555</span>
 </pre></div>
 </div>
 <p>Get IP address from router.</p>
 <p>Once connected, establish adb connection with:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb connect IP.address:PORT
+<div class="highlight-bash"><div class="highlight"><pre><span></span>adb connect IP.address:PORT
 </pre></div>
 </div>
 <p>or with my IP address of 192.168.2.102</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb connect <span class="m">192</span>.168.2.102:5555
+<div class="highlight-bash"><div class="highlight"><pre><span></span>adb connect <span class="m">192</span>.168.2.102:5555
 </pre></div>
 </div>
 <p>You can also use Vysor with an IP address that is established using Wi-Fi or Ethernet.</p>
@@ -117,40 +155,6 @@ our initial tests indicate that the battery power may be decreasing slowly.</p>
 
 
           </div>
-        </div>
-      </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="../index.html">Table of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Live Streaming Tips</a><ul>
-<li><a class="reference internal" href="#facebook-youtube-periscope-and-rtmp">Facebook, YouTube, Periscope and RTMP</a></li>
-<li><a class="reference internal" href="#webrtc-oculus-go-and-video-conferencing">WebRTC, Oculus Go and Video Conferencing</a></li>
-<li><a class="reference internal" href="#ethernet">Ethernet</a></li>
-<li><a class="reference internal" href="#heat">Heat</a></li>
-<li><a class="reference internal" href="#usb">USB</a></li>
-<li><a class="reference internal" href="#power">Power</a></li>
-<li><a class="reference internal" href="#test-and-debug">Test and Debug</a></li>
-<li><a class="reference internal" href="#use-adb-from-ip-address">Use adb from IP address</a></li>
-</ul>
-</li>
-</ul>
-
-  <h4>Previous topic</h4>
-  <p class="topless"><a href="../examples/additional.html"
-                        title="previous chapter">Additional Code Examples</a></p>
-<div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
-    </div>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>
