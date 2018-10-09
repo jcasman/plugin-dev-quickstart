@@ -159,7 +159,7 @@ man_pages = [
 texinfo_documents = [
     (master_doc, 'theta-plugin-development-quickstart',
         'theta-plugin-development-quickstart Documentation',
-     author, 'theta-plugin-development-quickstart', 
+     author, 'theta-plugin-development-quickstart',
         'One line description of project.',
      'Miscellaneous'),
 ]
