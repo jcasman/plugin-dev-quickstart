@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Getting Started with THETA Plugin Dev'
-copyright = '2018, Oppkey'
+copyright = '2018, Oppkey, Inc'
 author = 'Craig Oda and the theta360.guide community'
 
 # The short X.Y version
