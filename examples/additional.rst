@@ -9,9 +9,21 @@ pluginlibrary
 
 More Examples
 -------------
-Here are three additional plug-ins from the community. These are all based on the 
+Here are additional plug-ins from the community. The long videos one are all based on the 
 `THETA Sample Plug-in: Camera API <https://github.com/ricohapi/theta-plugin-camera-api-sample>`_
 project listed above.
+
+THETA Microphone
+----------------
+* Record audio from the THETA microphone. Use the THETA as a dedicated audio recorder
+  without video.
+* `GitHub <https://github.com/theta360developers/theta-microphone>`_
+
+Messaging plugin
+----------------
+* Use messaging API from LINE to send a message from the RICOH THETA to a mobile phone. 
+  Good for event notification. Can be adapted to any REST API messaging system.
+* `GitHub <https://github.com/theta360developers/messaging-plugin>`_
 
 Long 2K Video
 -------------
