@@ -1,5 +1,5 @@
 THETA Plug-in Development - Getting Started
-####################################
+###########################################
 
 .. toctree::
    :maxdepth: 1
@@ -8,6 +8,7 @@ THETA Plug-in Development - Getting Started
 
    examples/main
    examples/additional
+   firstplugin/firstplugin
    streaming/tips
    
 
