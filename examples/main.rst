@@ -48,6 +48,12 @@ THETA Sample Plug-in: WebAPI Capture Plugin
 * Author: Shohara
 * `GitHub <https://github.com/theta360developers/theta-plugin-web-api-sample>`_ 
 
+FastCV Plug-in Sample for RICOH THETA
+-------------------------------------
+* Image processing via FastCV
+* Author: RICOH
+* `GitHub <https://github.com/ricohapi/theta-plugin-fastcv-sample>`_ 
+
 Dual-fisheye Plug-in
 --------------------
 * Ichi Hirota's dual-fisheye plug-in to take 3 bracketed images. Includes examples for modifying 
