@@ -69,6 +69,9 @@ to ``RicNonStitching``.
 Change Picture ``setPictureSize``
 ---------------------------------
 
+The dual-fisheye image is larger than the standard equirectangular image.
+Set the size of the image to 5792 x 2896.
+
 .. code-block:: java
 
     public void takePicture() {
