@@ -66,6 +66,18 @@ Change ``RIC_PROC_STITCHING`` in ``takePicture``
 In ``takePicture``, look for ``RIC_PROC_STITCHING``.  Change the value
 to ``RicNonStitching``.
 
+Change Picture ``setPictureSize``
+---------------------------------
+
+.. code-block:: java
+
+    public void takePicture() {
+        if (!isCapturing) {
+            isCapturing = true;
+            isShutter = false;
+
+            mParameters.setPictureSize(5792, 2896);
+
 Save All and Build apk
 ----------------------
 
