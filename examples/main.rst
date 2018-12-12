@@ -54,6 +54,15 @@ FastCV Plug-in Sample for RICOH THETA
 * Author: RICOH
 * `GitHub <https://github.com/ricohapi/theta-plugin-fastcv-sample>`_ 
 
+GPS/GNSS Receiver Plug-in Sample for RICOH THETA
+------------------------------------------------
+* Receives GPS / GNSS data and updates position information in the camera
+* Author: RICOH
+* `GitHub <https://github.com/ricohapi/theta-plugin-gnssreceiver-sample>`_ 
+
+
+
+
 Dual-fisheye Plug-in
 --------------------
 * Ichi Hirota's dual-fisheye plug-in to take 3 bracketed images. Includes examples for modifying 

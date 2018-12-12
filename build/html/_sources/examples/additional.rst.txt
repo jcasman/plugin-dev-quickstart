@@ -25,6 +25,11 @@ Messaging plugin
   Good for event notification. Can be adapted to any REST API messaging system.
 * `GitHub <https://github.com/theta360developers/messaging-plugin>`_
 
+TensorFlow THETA
+----------------
+* Modified TensorFlow example for THETA V (Android)
+* `GitHub <https://github.com/theta360developers/tensorflow-theta>`_
+
 Long 2K Video
 -------------
 * Bypasses 25 minute video recording limitation to record 1 hour and 24 minutes 
