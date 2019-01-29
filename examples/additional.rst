@@ -13,6 +13,16 @@ Here are additional plug-ins from the community. The long videos one are all bas
 `THETA Sample Plug-in: Camera API <https://github.com/ricohapi/theta-plugin-camera-api-sample>`_
 project listed above.
 
+WebRTC Plug-in Sample for RICOH THETA
+-------------------------------------
+* Uses WebRTC to provide remote shutter function.
+* `GitHub <https://github.com/theta360developers/theta-plugin-webrtc-sample>`_
+
+Web GUI Sample
+--------------
+* Uses NanoHTTPd to build a web server for THETA Plug-is. Stores preferences using SharedPreferences.
+* `GitHub <https://github.com/theta360developers/webgui-sample>`_
+
 THETA Microphone
 ----------------
 * Record audio from the THETA microphone. Use the THETA as a dedicated audio recorder
