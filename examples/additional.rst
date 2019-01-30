@@ -59,6 +59,7 @@ Surveillance 2K
 
 Meowshot
 --------
-* Get a cat's attention by a voice, and take a picture.
+* Get a cat's attention by a voice, and take a picture. Kotlin
+  example. Uses NanoHTTPd for webgui.
 * `GitHub <https://github.com/theta360developers/meowshot>`_
 
