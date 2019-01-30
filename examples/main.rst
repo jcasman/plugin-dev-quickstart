@@ -40,7 +40,7 @@ THETA Sample Plug-in: CameraAPI Capture Plugin
 ----------------------------------------------
 * Excellent starting point for using the internal CameraAPI to take pictures and video. Simple and easy to customize. 
 * Author: Ricoh
-* `GitHub <https://github.com/ricohapi/theta-plugin-camera-api-sample>`_
+* `GitHub <https://github.com/theta360developers/theta-plugin-camera-api-sample>`_
 
 THETA Sample Plug-in: WebAPI Capture Plugin
 -------------------------------------------
@@ -52,13 +52,13 @@ FastCV Plug-in Sample for RICOH THETA
 -------------------------------------
 * Image processing via FastCV
 * Author: RICOH
-* `GitHub <https://github.com/ricohapi/theta-plugin-fastcv-sample>`_ 
+* `GitHub <https://github.com/theta360developers/theta-plugin-fastcv-sample>`_ 
 
 GPS/GNSS Receiver Plug-in Sample for RICOH THETA
 ------------------------------------------------
 * Receives GPS / GNSS data and updates position information in the camera
 * Author: RICOH
-* `GitHub <https://github.com/ricohapi/theta-plugin-gnssreceiver-sample>`_ 
+* `GitHub <https://github.com/theta360developers/theta-plugin-gnssreceiver-sample>`_ 
 
 
 

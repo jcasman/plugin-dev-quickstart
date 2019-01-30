@@ -10,7 +10,7 @@ pluginlibrary
 More Examples
 -------------
 Here are additional plug-ins from the community. The long videos one are all based on the 
-`THETA Sample Plug-in: Camera API <https://github.com/ricohapi/theta-plugin-camera-api-sample>`_
+`THETA Sample Plug-in: Camera API <https://github.com/theta360developers/theta-plugin-camera-api-sample>`_
 project listed above.
 
 WebRTC Plug-in Sample for RICOH THETA
