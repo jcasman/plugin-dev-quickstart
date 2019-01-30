@@ -10,7 +10,7 @@ Cloud Upload
 ------------
 * Upload automatically from THETA to Google Photos for 360 and VR viewing
 * Author: Ricoh
-* `GitHub <https://github.com/ricohapi/theta-cloud-upload-plugin>`_
+* `GitHub <https://github.com/theta360developers/theta-cloud-upload-plugin>`_
 
 .. index:: live streaming
 
@@ -18,13 +18,13 @@ Wireless Live Streaming
 -----------------------
 * 4K equirectangular live streaming from THETA direct to YouTube and Facebook using RTMP
 * Author: Ricoh
-* `GitHub <https://github.com/ricohapi/theta-wireless-live-streaming-plugin>`_
+* `GitHub <https://github.com/theta360developers/theta-wireless-live-streaming-plugin>`_
 
 Automatic Face Blur
 -------------------
 * Automatically detect and blur the faces of people to protect privacy
 * Author: Ricoh
-* `GitHub <https://github.com/ricohapi/theta-automatic-face-blur-plugin>`_
+* `GitHub <https://github.com/theta360developers/theta-automatic-face-blur-plugin>`_
 
 .. index:: live streaming
 
@@ -34,7 +34,7 @@ Live Streaming Plug-in Sample for RICOH THETA
   RICOH Cloud with the `RICOH Live Streaming API <https://api.ricoh/products/live-streaming-api/>`_
   for their cloud. 
 * Author: Ricoh
-* `GitHub <https://github.com/ricohapi/theta-plugin-ricoh-live-streaming-sample>`_
+* `GitHub <https://github.com/theta360developers/theta-plugin-ricoh-live-streaming-sample>`_
 
 THETA Sample Plug-in: CameraAPI Capture Plugin
 ----------------------------------------------
