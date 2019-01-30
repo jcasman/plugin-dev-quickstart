@@ -57,5 +57,8 @@ Surveillance 2K
 * 10 hour 55 minute saved to internal storage. 2K, 10fps
 * `GitHub <https://github.com/theta360developers/surveillance-2k>`_ 
 
-
+Meowshot
+--------
+* Get a cat's attention by a voice, and take a picture.
+* `GitHub <https://github.com/theta360developers/meowshot>`_
 
