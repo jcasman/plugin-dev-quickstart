@@ -40,6 +40,12 @@ TensorFlow THETA
 * Modified TensorFlow example for THETA V (Android)
 * `GitHub <https://github.com/theta360developers/tensorflow-theta>`_
 
+Meowshot
+--------
+* Get a cat's attention by a voice, and take a picture. Kotlin
+  example. Uses NanoHTTPd for webgui.
+* `GitHub <https://github.com/theta360developers/meowshot>`_
+
 Long 2K Video
 -------------
 * Bypasses 25 minute video recording limitation to record 1 hour and 24 minutes 
@@ -56,10 +62,3 @@ Surveillance 2K
 ---------------
 * 10 hour 55 minute saved to internal storage. 2K, 10fps
 * `GitHub <https://github.com/theta360developers/surveillance-2k>`_ 
-
-Meowshot
---------
-* Get a cat's attention by a voice, and take a picture. Kotlin
-  example. Uses NanoHTTPd for webgui.
-* `GitHub <https://github.com/theta360developers/meowshot>`_
-
