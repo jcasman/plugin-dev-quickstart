@@ -14,6 +14,12 @@ Here are additional plug-ins from the community. The long videos one are all bas
 `THETA Sample Plug-in: Camera API <https://github.com/theta360developers/theta-plugin-camera-api-sample>`_
 project listed above.
 
+Skyway THETA Plug-in Example
+----------------------------
+* Uses WebRTC and a Skyway signaling server to establish two-way P2P communication for 
+  video and audio.
+* `GitHub <https://github.com/theta360developers/skyway_theta_plugin_example>`_
+
 WebRTC Plug-in Sample for RICOH THETA
 -------------------------------------
 * Uses WebRTC to provide remote shutter function.
