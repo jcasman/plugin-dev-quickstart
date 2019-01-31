@@ -1,14 +1,15 @@
 Additional Code Examples
 ========================
 
-pluginlibrary
--------------
-* Standalone plug-in library if you want to start with a new Android project instead
-  of opening an existing project.
-* `GitHub <https://github.com/theta360developers/pluginlibrary>`_
+.. pluginlibrary
+.. -------------
+.. * Standalone plug-in library if you want to start with a new Android project instead
+..   of opening an existing project.
+.. * `GitHub <https://github.com/theta360developers/pluginlibrary>`_
 
-More Examples
--------------
+.. More Examples
+.. -------------
+
 Here are additional plug-ins from the community. The long videos one are all based on the 
 `THETA Sample Plug-in: Camera API <https://github.com/theta360developers/theta-plugin-camera-api-sample>`_
 project listed above.
