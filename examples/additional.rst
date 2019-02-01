@@ -42,25 +42,33 @@ Web GUI Sample
 
 .. index:: microphone, audio
 
-
 THETA Microphone
 ----------------
 * Record audio from the THETA microphone. Use the THETA as a dedicated audio recorder
   without video.
 * `GitHub <https://github.com/theta360developers/theta-microphone>`_
+* `Documentation and Discussion <https://community.theta360.guide/t/how-to-record-using-a-microphone-with-the-ricoh-theta-plug-in/3733?u=codetricity>`_
+
+.. index:: messaging
 
 Messaging plugin
 ----------------
 * Use messaging API from LINE to send a message from the RICOH THETA to a mobile phone. 
   Good for event notification. Can be adapted to any REST API messaging system.
 * `GitHub <https://github.com/theta360developers/messaging-plugin>`_
+* `Documentation and Discussion <https://community.theta360.guide/t/ricoh-blog-post-theta-plug-in-development-sending-love-with-theta/3327?u=codetricity>`_
 
-.. index:: deep learning, tensorflow, ai
+.. index:: deep learning, tensorflow, ai, voice recognition
 
 TensorFlow THETA
 ----------------
-* Modified TensorFlow example for THETA V (Android)
+* Modified TensorFlow example for THETA V (Android). Object recognition,
+  artistic style application, voice recognition, object detection
 * `GitHub <https://github.com/theta360developers/tensorflow-theta>`_
+* `Developer Documentation <https://medium.com/theta360-guide/howto-build-tensorflow-apps-for-ricoh-theta-1b64da06a0bd>`_
+* `User Documentation <https://medium.com/theta360-guide/running-tensorflow-on-ricoh-theta-v-e9ca512174cf>`_
+* `Discussion <https://community.theta360.guide/t/how-to-build-tensorflow-apps-for-ricoh-theta/3808?u=codetricity>`_
+
 
 .. index:: user interface
 
@@ -75,17 +83,20 @@ Long 2K Video
 * Bypasses 25 minute video recording limitation to record 1 hour and 24 minutes 
   of 2K video with spatial audio
 * `GitHub <https://github.com/theta360developers/long-2k-video>`_
+* `Discussion and Documentation <https://community.theta360.guide/t/theta-v-long-video-plug-in-recording-beyond-25-minutes/3483?u=codetricity>`_
 
 Long 4K Video
 ----------------------------------------------------------------------
 * Tested to 1 hour 24 minutes of 4K 30fps video with mono audio and 48 minutes 
   with spatial audio and default encoding.
 * `GitHub <https://github.com/theta360developers/4k-long-video>`_
+* `Discussion and Documentation <https://community.theta360.guide/t/theta-v-long-video-plug-in-recording-beyond-25-minutes/3483?u=codetricity>`_
 
 Surveillance 2K
 ---------------
 * 10 hour 55 minute saved to internal storage. 2K, 10fps
 * `GitHub <https://github.com/theta360developers/surveillance-2k>`_ 
+* `Discussion and Documentation <https://community.theta360.guide/t/theta-v-long-video-plug-in-recording-beyond-25-minutes/3483?u=codetricity>`_
 
 .. index:: live streaming
 
