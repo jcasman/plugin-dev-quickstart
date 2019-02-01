@@ -23,6 +23,8 @@ Skyway THETA Plug-in Example
 * `GitHub <https://github.com/theta360developers/skyway_theta_plugin_example>`_
 * `Documentation and Discussion <https://community.theta360.guide/t/theta-live-streaming-360-video-with-webrtc-direct-from-camera/4082?u=codetricity>`_
 
+.. index:: WebRTC
+
 WebRTC Plug-in Sample Picture Shooting Only
 -------------------------------------------
 * Uses WebRTC to provide remote shutter function.
