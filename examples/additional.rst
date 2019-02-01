@@ -21,6 +21,7 @@ Skyway THETA Plug-in Example
 * Uses WebRTC and a Skyway signaling server to establish two-way P2P communication for 
   video and audio.
 * `GitHub <https://github.com/theta360developers/skyway_theta_plugin_example>`_
+* `Documentation and Discussion <https://community.theta360.guide/t/theta-live-streaming-360-video-with-webrtc-direct-from-camera/4082?u=codetricity>`_
 
 WebRTC Plug-in Sample for RICOH THETA
 -------------------------------------
