@@ -38,8 +38,10 @@ Web GUI Sample
 --------------
 * Uses NanoHTTPd to build a web server for THETA Plug-is. Stores preferences using SharedPreferences.
 * `GitHub <https://github.com/theta360developers/webgui-sample>`_
+* `Documentation and Discussion <https://community.theta360.guide/t/creating-a-webui-for-your-theta-plug-in/4054?u=codetricity>`_
 
 .. index:: microphone, audio
+
 
 THETA Microphone
 ----------------
