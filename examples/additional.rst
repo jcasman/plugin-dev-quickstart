@@ -14,6 +14,8 @@ Here are additional plug-ins from the community. The long videos one are all bas
 `THETA Sample Plug-in: Camera API <https://github.com/theta360developers/theta-plugin-camera-api-sample>`_
 project listed above.
 
+.. index:: live streaming
+
 Skyway THETA Plug-in Example
 ----------------------------
 * Uses WebRTC and a Skyway signaling server to establish two-way P2P communication for 
@@ -25,10 +27,14 @@ WebRTC Plug-in Sample for RICOH THETA
 * Uses WebRTC to provide remote shutter function.
 * `GitHub <https://github.com/theta360developers/theta-plugin-webrtc-sample>`_
 
+.. index:: user interface
+
 Web GUI Sample
 --------------
 * Uses NanoHTTPd to build a web server for THETA Plug-is. Stores preferences using SharedPreferences.
 * `GitHub <https://github.com/theta360developers/webgui-sample>`_
+
+.. index:: microphone, audio
 
 THETA Microphone
 ----------------
@@ -42,10 +48,14 @@ Messaging plugin
   Good for event notification. Can be adapted to any REST API messaging system.
 * `GitHub <https://github.com/theta360developers/messaging-plugin>`_
 
+.. index:: deep learning, tensorflow, ai
+
 TensorFlow THETA
 ----------------
 * Modified TensorFlow example for THETA V (Android)
 * `GitHub <https://github.com/theta360developers/tensorflow-theta>`_
+
+.. index:: user interface
 
 Meowshot
 --------
@@ -69,3 +79,13 @@ Surveillance 2K
 ---------------
 * 10 hour 55 minute saved to internal storage. 2K, 10fps
 * `GitHub <https://github.com/theta360developers/surveillance-2k>`_ 
+
+.. index:: live streaming
+
+Live Streaming Plug-in Sample for RICOH THETA
+---------------------------------------------
+* Sample application using WebRTC SFU to live stream spherical video to the 
+  RICOH Cloud with the `RICOH Live Streaming API <https://api.ricoh/products/live-streaming-api/>`_
+  for their cloud. 
+* Author: Ricoh
+* `GitHub <https://github.com/theta360developers/theta-plugin-ricoh-live-streaming-sample>`_

@@ -26,15 +26,6 @@ Automatic Face Blur
 * Author: Ricoh
 * `GitHub <https://github.com/theta360developers/theta-automatic-face-blur-plugin>`_
 
-.. index:: live streaming
-
-Live Streaming Plug-in Sample for RICOH THETA
----------------------------------------------
-* Sample application using WebRTC SFU to live stream spherical video to the 
-  RICOH Cloud with the `RICOH Live Streaming API <https://api.ricoh/products/live-streaming-api/>`_
-  for their cloud. 
-* Author: Ricoh
-* `GitHub <https://github.com/theta360developers/theta-plugin-ricoh-live-streaming-sample>`_
 
 THETA Sample Plug-in: CameraAPI Capture Plugin
 ----------------------------------------------
