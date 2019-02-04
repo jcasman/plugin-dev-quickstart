@@ -55,7 +55,7 @@ Messaging plugin
 ----------------
 * Use messaging API from LINE to send a message from the RICOH THETA to a mobile phone. 
   Good for event notification. Can be adapted to any REST API messaging system.
-* `GitHub <https://github.com/theta360developers/messaging-plugin>`_
+* `GitHub <https://github.com/theta360developers/ricoh-theta-messaging-plugin`_
 * `Documentation and Discussion <https://community.theta360.guide/t/ricoh-blog-post-theta-plug-in-development-sending-love-with-theta/3327?u=codetricity>`_
 
 .. index:: deep learning, tensorflow, ai, voice recognition
