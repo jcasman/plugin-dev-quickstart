@@ -51,9 +51,9 @@ THETA Microphone
 
 .. index:: messaging
 
-Messaging plugin
+Messaging Plug-in
 ----------------
-* Use messaging API from LINE to send a message from the RICOH THETA to a mobile phone. 
+* Use messaging API from LINE messaging service to send a message from the RICOH THETA to a mobile phone. 
   Good for event notification. Can be adapted to any REST API messaging system.
 * `GitHub <https://github.com/theta360developers/ricoh-theta-messaging-plugin>`_
 * `Documentation and Discussion <https://community.theta360.guide/t/ricoh-blog-post-theta-plug-in-development-sending-love-with-theta/3327?u=codetricity>`_
@@ -72,7 +72,7 @@ TensorFlow THETA
 
 .. index:: user interface
 
-Meowshot
+Meow Shot! Plug-in
 --------
 * Get a cat's attention by a voice, and take a picture. Kotlin
   example. Uses NanoHTTPd for webgui.
